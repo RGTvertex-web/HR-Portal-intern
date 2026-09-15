@@ -1,25 +1,24 @@
-# Python
-venv/
-__pycache__/
-*.pyc
-.env
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Supabase local environment config
-supabase/.temp/
-supabase/.branch
+node_modules
+dist
+dist-ssr
+*.local
 
-# ML Dataset Generation
-server/ml/manifests/*.csv
-server/ml/processed/
-server/ml/splits/*.csv
-server/ml/splits/*.json
-server/ml/artifacts/*.joblib
-server/ml/artifacts/*.json
-server/ml/reports/*.png
-server/ml/reports/*.txt
-server/ml/reports/*.json
-
-# Node
-node_modules/
-dist/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
