@@ -211,18 +211,18 @@ export default function Login() {
 
 
             <div className="relative">
-            <input
-              type={showPassword ? "text" : "password"}
-              placeholder="Password"
-              value={password}
-              onChange={(e) =>
-                setPassword(e.target.value)
-              }
-              required
-              className="w-full border border-line rounded-md px-3 py-2 pr-10 text-sm"
-            />
+              <input
+                type={showPassword ? "text" : "password"}
+                placeholder="Password"
+                value={password}
+                onChange={(e) =>
+                  setPassword(e.target.value)
+                }
+                required
+                className="w-full border border-line rounded-md px-3 py-2 pr-10 text-sm"
+              />
 
-            <button
+              <button
                 type="button"
                 onClick={() => {
                   setEmail("sinchana032004@gmail.com");
@@ -233,14 +233,14 @@ export default function Login() {
                 Fill Test Credentials
               </button>
 
-            <button
-              type="button"
-              onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"
-            >
-              {showPassword ? "👁️" : "👁️"}
-            </button>
-          </div>
+              <button
+                type="button"
+                onClick={() => setShowPassword(!showPassword)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"
+              >
+                {showPassword ? "👁️" : "👁️"}
+              </button>
+            </div>
 
 
             <button
